@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+}
+
+h1{
+	font-family: 'Franklin Gothic Medium';
+}
+
+button {
+	font-size: xx-large;
+	background-color: unset;
+	padding: 1rem;
+	margin: 10px 20px;
+	transition: 100ms ease-in-out;
+}
+
+
+button:hover{
+	transform: scale(1.1);
+}
+
+#Like:hover, #contenedorLikePerro{
+	background-color: #00ff2a23;
+}
+
+#Dislike:hover, #contenedorDislikePerro{
+	background-color: #79000023;
+
+}
